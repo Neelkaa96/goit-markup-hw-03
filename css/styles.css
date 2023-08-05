@@ -1,0 +1,106 @@
+:root {
+    --brand-color: #434455;
+    --color-hover: #404bbf;
+    --text-color: #2E2F42;
+    --button-color: #4D5AE5;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--brand-color);
+    font-weight: 400
+}
+.web-color {
+    color: var(--text-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.studio {
+    color: var(--button-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.color-footer {
+    color: #f4f4fd;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.address {
+    color: var(--brand-color);
+    font-size: 16;
+    line-height: 1.5;
+    font-style: normal;
+    text-decoration: none;
+}
+ .address:hover, .address:focus {
+    color: var(--color-hover);
+}
+.link{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+ .link:hover, .link:focus {
+    color: var(--color-hover);
+}
+.filter-button {
+    font-family: Roboto;
+    color: var(--button-color);
+    background-color: #f4f4fd;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.filter-button:hover, .filter-button:focus {
+    color: #ffffff;
+    background-color: var(--color-hover);
+}
+.service {
+    font-family: Roboto;
+    color: #fff;
+    background-color: var(--button-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+ .service:hover, .service:focus {
+    color: #fff;
+    background-color: var(--color-hover);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+.demonstration {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+.presentation {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+}
