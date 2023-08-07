@@ -10,24 +10,31 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <div>
+    <header class="flex-header">
+      <div class="container flex-header">
         <a href="./index.html" class="web-color"
           ><span class="studio">Web</span>Studio</a
         >
       </div>
-      <nav>
-        <ul>
+      <nav class="flex-nav">
+        <ul class="list-nav">
           <li><a class="link" href="/Studio">Studio</a></li>
           <li><a class="link" href="./portfolio.html">Portfolio</a></li>
           <li><a class="link" href="/Contacts">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <address class="contacts">
+        <ul class="list-contacts">
           <li>
             <a class="address" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -42,45 +49,49 @@
       </address>
     </header>
     <main>
-      <section>
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button type="button" class="service">Order service</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">Effective Solutions for Your Business</h1>
+          <button type="button" class="service">Order service</button>
+        </div>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3 class="presentation">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution
-            </p>
-          </li>
-          <li>
-            <h3 class="presentation">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="presentation">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="presentation">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring a deep
-              passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <ul class="list first-section-studio">
+            <li class="goals">
+              <h3 class="presentation">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution
+              </p>
+            </li>
+            <li class="goals">
+              <h3 class="presentation">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="goals">
+              <h3 class="presentation">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="goals">
+              <h3 class="presentation">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring a deep
+                passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
+      <section class="section">
         <h2 class="demonstration">What are we doing</h2>
-        <ul>
+        <ul class="list-projects">
           <li>
             <img
               src="./images/monitor.jpg"
@@ -107,73 +118,75 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="demonstration">Our Team</h2>
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/man.jpg"
-                alt="man with stubble and short black hair"
-                width="264"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="presentation">Mark Guerrero</h3>
-                <p class="text">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/man2.jpg"
-                alt="broadly smiling man with blond hair"
-                width="264"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="presentation">Tom Ford</h3>
-                <p class="text">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/women.jpg"
-                alt="woman with long hair"
-                width="264"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="presentation">Camila Garcia</h3>
-                <p class="text">Maketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/man1.jpg"
-                alt="smiling man with dark hair and stubble"
-                width="264"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="presentation">Daniel Wilson</h3>
-                <p class="text">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+      <section class="section team-background">
+        <div class="container flex-column">
+          <h2 class="demonstration">Our Team</h2>
+          <ul class="list section-team">
+            <li class="team">
+              <figure>
+                <img
+                  src="images/man.jpg"
+                  alt="man with stubble and short black hair"
+                  width="264"
+                  height="260"
+                />
+                <figcaption class="team-image-caption">
+                  <h4 class="presentation">Mark Guerrero</h4>
+                  <p class="text">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img
+                  src="images/man2.jpg"
+                  alt="broadly smiling man with blond hair"
+                  width="264"
+                  height="260"
+                />
+                <figcaption class="team-image-caption">
+                  <h4 class="presentation">Tom Ford</h4>
+                  <p class="text">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img
+                  src="images/women.jpg"
+                  alt="woman with long hair"
+                  width="264"
+                  height="260"
+                />
+                <figcaption class="team-image-caption">
+                  <h4 class="presentation">Camila Garcia</h4>
+                  <p class="text">Maketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team">
+              <figure>
+                <img
+                  src="images/man1.jpg"
+                  alt="smiling man with dark hair and stubble"
+                  width="264"
+                  height="260"
+                />
+                <figcaption class="team-image-caption">
+                  <h4 class="presentation">Daniel Wilson</h4>
+                  <p class="text">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer-background-color footer-height">
       <a href="./index.html" class="color-footer"
         ><span class="studio">Web</span>Studio</a
       >
-      <p class="text">
+      <p class="element-content footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

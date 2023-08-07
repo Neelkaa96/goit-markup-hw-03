@@ -8,22 +8,46 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color);
     font-weight: 400
+    background-color: #FFF;
+}
+img {
+    display: block;
+}
+ul,
+h2,
+h4,
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .web-color {
     color: var(--text-color);
     font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
     text-decoration: none;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
 }
 .studio {
+    margin-right: 76px;
     color: var(--button-color);
     font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .color-footer {
     color: #f4f4fd;
@@ -32,6 +56,7 @@ body {
     font-weight: 700;
     line-height: 1.19;
     text-decoration: none;
+    display: inline-block;
 }
 .address {
     color: var(--brand-color);
@@ -39,6 +64,7 @@ body {
     line-height: 1.5;
     font-style: normal;
     text-decoration: none;
+    letter-spacing: 0,02em
 }
  .address:hover, .address:focus {
     color: var(--color-hover);
@@ -54,17 +80,25 @@ body {
     color: var(--color-hover);
 }
 .filter-button {
+    padding: 12px 24px 12px;
+    outline: none;
     font-family: Roboto;
     color: var(--button-color);
     background-color: #f4f4fd;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0,04em;
+    border: 1px solid #E7E9FC;
+    border-radius:
     cursor: pointer;
 }
 .filter-button:hover, .filter-button:focus {
     color: #ffffff;
     background-color: var(--color-hover);
+    box-shadow: 0px 2px 2px 0px;
+    box-shadow: 0px 2px 1px 0px;
+    box-shadow: 0px 3px 1px 0px;
 }
 .service {
     font-family: Roboto;

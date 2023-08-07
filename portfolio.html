@@ -10,36 +10,49 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    </style>
   </head>
   <body>
-    <header>
-      <div>
+    <header class="flex-header">
+      <div class="container flex-header">
         <a href="./index.html" class="web-color"
           ><span class="studio">Web</span>Studio</a
         >
       </div>
-      <nav>
-        <ul>
+      <nav class="flex-nav">
+        <ul class="list-nav">
           <li><a class="link" href="./index.html">Studio</a></li>
           <li><a class="link" href="/Portfolio">Portfolio</a></li>
           <li>
             <a class="link" href="/Contacts">Contacts</a>
           </li>
         </ul>
-        <address>
-          <ul>
-            <li><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="address" href="tel:+11(000)111111111">+11(000)111111111</a></li>
+        <address class="contacts">
+          <ul class="list-contacts">
+            <li>
+              <a class="address" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address" href="tel:+11(000)111111111"
+                >+11(000)111111111</a
+              >
+            </li>
           </ul>
         </address>
       </nav>
     </header>
     <main>
-      <h1></h1>
-      <section>
-        <ul>
+      <section class="portfolio-container">
+        <ul class="list-menu-filters">
           <li>
             <button type="button" class="filter-button">All</button>
           </li>
@@ -56,8 +69,6 @@
             <button type="button" class="filter-button">Marketing</button>
           </li>
         </ul>
-      </section>
-      <section>
         <ul class="project-cards">
           <li>
             <figure>
@@ -67,8 +78,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Banking App Interface Conept</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Banking App Interface Conept</h2>
                 <p class="text">App</p>
               </figcaption>
             </figure>
@@ -81,8 +92,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3>class="presentation"Cashless Payment</h3>
+              <figcaption class="project-card-caption">
+                <h2>class="presentation"Cashless Payment</h2>
                 <p class="text">Marketing</p>
               </figcaption>
             </figure>
@@ -95,8 +106,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Meditation App</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Meditation App</h2>
                 <p class="text">App</p>
               </figcaption>
             </figure>
@@ -109,8 +120,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Taxi Service</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Taxi Service</h2>
                 <p class="text">Marketing></p>
               </figcaption>
             </figure>
@@ -123,8 +134,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Screen Ilustration</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Screen Ilustration</h2>
                 <p class="text">Design</p>
               </figcaption>
             </figure>
@@ -137,8 +148,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Online Courses</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Online Courses</h2>
                 <p class="text">Marketing</p>
               </figcaption>
             </figure>
@@ -151,8 +162,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Instagram Stories Concept</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Instagram Stories Concept</h2>
                 <p class="text">Design</p>
               </figcaption>
             </figure>
@@ -165,8 +176,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Organic Food</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Organic Food</h2>
                 <p class="text">Web Site</p>
               </figcaption>
             </figure>
@@ -179,8 +190,8 @@
                 width="360"
                 height="300"
               />
-              <figcaption>
-                <h3 class="presentation">Fresh Coffee</h3>
+              <figcaption class="project-card-caption">
+                <h2 class="presentation">Fresh Coffee</h2>
                 <p class="text">Web Site</p>
               </figcaption>
             </figure>
@@ -188,11 +199,11 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer-background-color footer-height">
       <a href="./index.html" class="color-footer"
         ><span class="studio">Web</span>Studio</a
       >
-      <p class="text">
+      <p class="element-content footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
