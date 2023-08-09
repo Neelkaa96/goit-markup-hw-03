@@ -89,6 +89,7 @@ p {
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
+    font-style: normal;
 }
  .link:hover, .link:focus {
     color: var(--color-hover);
@@ -108,12 +109,10 @@ p {
 .phone {
     display: block;
     margin: 24px 0 24px 40px;
-    font-style: normal;
 }
 .email {
     display: block;
     margin: 24px 0 24px 170px;
-    font-style: normal;
 }
 .hero {
     padding: 188px 0;
