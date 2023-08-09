@@ -108,10 +108,12 @@ p {
 .phone {
     display: block;
     margin: 24px 0 24px 40px;
+    font-style: normal;
 }
 .email {
     display: block;
     margin: 24px 0 24px 170px;
+    font-style: normal;
 }
 .hero {
     padding: 188px 0;
