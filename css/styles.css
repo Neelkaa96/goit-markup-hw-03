@@ -12,6 +12,7 @@ body {
     color: var(--brand-color);
     font-weight: 400;
     background-color: var(--white);
+    text-decoration: none;
 }
 img {
     display: block;
@@ -73,6 +74,9 @@ p {
 }
 .contacts:hover, .contacts:focus {
     color: var(--color-hover) ;
+}
+.list {
+    list-style: none;
 }
 .address {
    display: flex;
