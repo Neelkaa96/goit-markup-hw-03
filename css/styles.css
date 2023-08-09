@@ -83,13 +83,15 @@ p {
    justify-content: flex-end;
    gap: 40px
 }
+address {
+    font-style: normal;
+}
 .link{
     color: var(--text-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
-    font-style: normal;
 }
  .link:hover, .link:focus {
     color: var(--color-hover);
