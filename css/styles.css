@@ -48,7 +48,7 @@ p {
     text-transform: uppercase;
 }
 .studio {
-    margin-right: 4px;
+    margin-right: 2px;
     color: var(--button-color);
     font-family: Raleway;
     font-size: 18px;
@@ -244,6 +244,7 @@ h1.title {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 120px;
 }
