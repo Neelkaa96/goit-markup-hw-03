@@ -240,12 +240,13 @@ h1.title {
     text-transform: capitalize;
     padding-bottom: 120px;
 }
-.list.projects {
+.list-projects {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+    margin-bottom: 120px;
 }
 .presentation {
     color: var(--text-color);
