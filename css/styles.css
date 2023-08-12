@@ -75,6 +75,7 @@ p {
     letter-spacing: 0,03;
     text-decoration: none;
     display: inline-block;
+    text-transform: uppercase;
 }
 .contacts {
     color: var(--brand-color);
