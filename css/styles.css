@@ -53,7 +53,7 @@ p {
     text-transform: uppercase;
 }
 .studio {
-    margin-right: 2px;
+    margin-right: 0px;
     color: var(--button-color);
     font-family: Raleway;
     font-size: 18px;
@@ -64,10 +64,10 @@ p {
     text-transform: uppercase;
 }
 .color-footer {
-    margin-right: 2px;
+    margin-right: 0px;
     color: var(--cloud);
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.19;
     text-decoration: none;
