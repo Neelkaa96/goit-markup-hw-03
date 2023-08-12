@@ -54,6 +54,7 @@ p {
     text-transform: uppercase;
 }
 .studio {
+    margin-left: 156px;
     margin-right: 0px;
     color: var(--button-color);
     font-family: Raleway;
@@ -66,6 +67,7 @@ p {
 }
 .color-footer {
     margin-right: 0px;
+    margin-left: 156px;
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
