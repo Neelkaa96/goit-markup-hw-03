@@ -71,8 +71,10 @@ p {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
+    letter-spacing: 0,03;
     text-decoration: none;
     display: inline-block;
+    text-transform: uppercase;
 }
 .contacts {
     color: var(--brand-color);
@@ -281,7 +283,9 @@ h4 > .presentation {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    list-style: none;
+}
+.list {
+    list-style: none
 }
 .project-card-caption {
     padding: 32px 16px 32px;
