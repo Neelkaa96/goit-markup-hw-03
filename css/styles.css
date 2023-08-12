@@ -33,9 +33,10 @@ p {
     padding-inline-start: 0;
 }
 .container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .flex-header {
     display: flex;
@@ -68,8 +69,8 @@ p {
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
-    font-weight: 700;
-    line-height: 1.19;
+    font-weight: 800;
+    line-height: 1.17;
     text-decoration: none;
     display: inline-block;
 }
