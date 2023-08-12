@@ -281,6 +281,7 @@ h4 > .presentation {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
 }
 .project-card-caption {
     padding: 32px 16px 32px;
