@@ -69,8 +69,6 @@ p {
     text-transform: uppercase;
 }
 .color-footer {
-    margin-right: 0px;
-    margin-left: 156px;
     margin-bottom: 17.5px;
     color: var(--cloud);
     font-family: Raleway;
