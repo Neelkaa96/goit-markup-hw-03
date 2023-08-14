@@ -42,6 +42,7 @@ p {
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--cornflower);
+    justify-content: center;
 }
 .web-color {
     color: var(--text-color);
