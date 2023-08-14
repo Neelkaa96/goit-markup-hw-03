@@ -40,7 +40,6 @@ p {
 }
 .flex-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--cornflower);
 }
@@ -313,6 +312,6 @@ h4 > .presentation {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin: 0px;
-    margin-top: 16px;
+    margin-right: 1020px;
+    margin-left: 56px;
 }
