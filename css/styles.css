@@ -68,6 +68,7 @@ p {
     text-transform: uppercase;
 }
 .color-footer {
+    margin-left:200px;
     margin-right: 0px;
     color: var(--cloud);
     font-family: Raleway;
@@ -299,8 +300,7 @@ h4 > .presentation {
 .footer-content {
     display: flex;
     flex-direction: column;
-    scroll-margin-right: 1240;
-    margin-left: 156px;
+    align-items: flex-start;
 }
 .footer-height {
     max-height: 312px;
@@ -317,5 +317,5 @@ h4 > .presentation {
     letter-spacing: 0.02em;
     width: 264px;
     margin-right: 1020px;
-    margin-left: 56px;
+    margin-left: 156px;
 }
