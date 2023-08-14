@@ -300,7 +300,7 @@ h4 > .presentation {
     display: flex;
     flex-direction: column;
     scroll-margin-right: 1240;
-    margin-left: 56px;
+    margin-left: 156px;
 }
 .footer-height {
     max-height: 312px;
