@@ -296,6 +296,12 @@ h4 > .presentation {
     border: 1px solid var(--cornflower);
     border-top: none;
 }
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .footer-height {
     max-height: 312px;
     padding-bottom: 100px;
