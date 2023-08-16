@@ -174,8 +174,8 @@ h1.title {
     background-color: var(--color-hover);
 }
 .portfolio-container {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    margin-top: 96px;
+    margin-bottom: 120px;
 }
 .flex-column {
     flex-direction: column;
