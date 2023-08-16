@@ -161,6 +161,8 @@ h1.title {
     border: 1px solid var(--cornflower);
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 96px;
+    margin-bottom: 72px;
 }
 .filter-button:hover, .filter-button:focus {
     color: var(--white);
@@ -172,10 +174,6 @@ h1.title {
 .filter-button:active {
     color: var(--white);
     background-color: var(--color-hover);
-}
-.portfolio-container {
-    margin-top: 96px;
-    margin-bottom: 120px;
 }
 .flex-column {
     flex-direction: column;
