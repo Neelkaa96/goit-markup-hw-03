@@ -260,6 +260,7 @@ h1.title {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
+    padding-bottom: 72px;
 }
 .list-projects {
     list-style: none;
