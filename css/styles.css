@@ -211,12 +211,25 @@ h1.title {
 }
 .menu-filters {
     display: flex;
-    justify-content: center;
-    gap: 24px;
     padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-emphasis: none;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    gap: 24px;
+    letter-spacing: 0.02em;
     padding-top: 96px;
     padding-left: 191px;
     padding-bottom: 72px;
+    color: var(--button-color);
+    border-radius: 4px;
+    border: none;
+    background: var(--cloud);
  }
 .service {
     display: block;
