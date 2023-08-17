@@ -178,6 +178,13 @@ h1.title {
 .flex-column {
     flex-direction: column;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-info {
+    padding-bottom: 120px;
+}
 .section-team {
     display: flex;
     flex-direction: row;
@@ -207,9 +214,10 @@ h1.title {
     justify-content: center;
     gap: 24px;
     padding: 48px;
-    margin-top: 96px;
-    margin-bottom: 72px;
-}
+    padding-top: 96px;
+    padding-left: 191px;
+    padding-bottom: 72px;
+ }
 .service {
     display: block;
     margin: 0 auto;
@@ -260,10 +268,6 @@ h1.title {
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
-}
-.section {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .presentation {
