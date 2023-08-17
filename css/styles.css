@@ -181,10 +181,6 @@ h1.title {
 .flex-column {
     flex-direction: column;
 }
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .section-info {
     padding-bottom: 120px;
 }
@@ -254,7 +250,7 @@ h1.title {
     font-weight: 500;
     line-height: 1.5; 
 }
-.list .first-section-studio {
+ .first-section-studio {
     display: flex;
     gap: 24px;
 }
