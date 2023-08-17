@@ -253,6 +253,7 @@ h1.title {
  .first-section-studio {
     display: flex;
     gap: 24px;
+    padding-top: 120px;
 }
 .goals li {
     width: calc((100% - 72px) / 4);
