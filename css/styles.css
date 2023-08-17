@@ -229,7 +229,6 @@ h1.title {
     color: var(--button-color);
     border-radius: 4px;
     border: none;
-    background: var(--cloud);
  }
 .service {
     display: block;
